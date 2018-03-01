@@ -1,0 +1,74 @@
+{
+    "Player": "ak.hellas@gmail.com",
+    "Name": "Aramil Nailo (Nightbreeze)",
+    "Race": "Wood Elf",
+    "Background": "Charlatan",
+    "Classes": [
+        {
+            "Class": "Rogue",
+            "Level": 4,
+            "Archetype": "Assassin"
+        },
+        {
+            "Class": "Warlock",
+            "Level": 5,
+            "Archetype": "Pact of the Blade",
+            "Patron": "Fiend"
+        }
+    ],
+    "Alignment": "CN",
+    "XP": 55000,
+    "ProficiencyBonus": 4,
+    "Strength": 12,
+    "Dexterity": 22,
+    "Constitution": 15,
+    "Intelligence": 14,
+    "Wisdom": 15,
+    "Charisma": 16,
+    "SavingThrows": [
+        "Dexterity",
+        "Intelligence"
+    ],
+    "Skills": [
+        "Acrobatics",
+        "Deception",
+        "Insight",
+        "Investigation",
+        "Perception",
+        "Persuassion",
+        "SleightOfHand",
+        "Stealth"
+    ],
+    "Speed": 35,
+    "HP": 66,
+    "Languages": [
+        "Common",
+        "Elvish",
+        "Thieves' cant"
+    ],
+    "Tools": [
+        "Thieves' tools",
+        "Disguise kit",
+        "Forgery kit",
+        "Poisoner's kit"
+    ],
+    "Weapons": {
+        "Simple": [
+            "*"
+        ],
+        "Martial": [
+            "Hand crossbow",
+            "Rapier",
+            "Shortsword",
+            "Longsword",
+            "Shortbow",
+            "Longbow"
+        ]
+    },
+    "Modifiers": [
+        {
+            "Type": "SavingThrow",
+            ""
+        }
+    ]
+}

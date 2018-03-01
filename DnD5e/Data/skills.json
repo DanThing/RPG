@@ -1,0 +1,55 @@
+{[
+  "name":"Athletics",
+  "proficiency":"Str"
+  ],[
+  "name":"Acrobatics",
+  "proficiency":"Dex"
+  ],[
+  "name":"Sleight of Hand",
+  "proficiency":"Dex"
+  ],[
+  "name":"Stealth",
+  "proficiency":"Dex"
+  ],[
+  "name":"Arcana",
+  "proficiency":"Int"
+  ],[
+  "name":"History",
+  "proficiency":"Int"
+  ],[
+  "name":"Investigation",
+  "proficiency":"Int"
+  ],[
+  "name":"Nature",
+  "proficiency":"Int"
+  ],[
+  "name":"Religion",
+  "proficiency":"Int"
+  ],[
+  "name":"Animal Handling",
+  "proficiency":"Wis"
+  ],[
+  "name":"Insight",
+  "proficiency":"Wis"
+  ],[
+  "name":"Medicine",
+  "proficiency":"Wis"
+  ],[
+  "name":"Perception",
+  "proficiency":"Wis"
+  ],[
+  "name":"Survival",
+  "proficiency":"Wis"
+  ],[
+  "name":"Deception",
+  "proficiency":"Cha"
+  ],[
+  "name":"Intimidation",
+  "proficiency":"Cha"
+  ],[
+  "name":"Performance",
+  "proficiency":"Cha"
+  ],[
+  "name":"Persuasion"
+  "proficiency":"Char"
+]}

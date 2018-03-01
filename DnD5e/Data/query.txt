@@ -1,0 +1,6 @@
+let
+    Source = feats,
+    #"Expanded Column1" = Table.ExpandRecordColumn(Source, "Column1", {"data_type", "name", "text", "Source", "modifier"}, {"Column1.data_type", "Column1.name", "Column1.text", "Column1.Source", "Column1.modifier"}),
+    #"Filtered Rows" = Table.SelectRows(#"Expanded Column1", each ([Column1.name] = "Actor"))
+in
+    #"Filtered Rows"
