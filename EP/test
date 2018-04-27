@@ -1,0 +1,31 @@
+
+general(table)
+dieRoll = diceroll(10) '9
+subCount = 1
+on error resume next
+for each itm in table(values)
+ if isArray(itm) then   
+  for each subitm in itm
+   if subitm <= dieroll then       
+    if isobject table(table)(subCount) then           
+      nexttable = table(table)(subCount)("next")     
+      err.clear     
+      exit
+    end if               
+   end if  
+  next subitm    
+  subCount = subCount +1 
+ elseif itm <= dieroll then  
+  getfrom table, dieroll  
+  err.clear  
+  exit  
+ end if 
+next itm
+err.clear
+
+
+rollon nexttable
+branching(table)
+  dieRoll = diceroll(10) '9
+  subCount = 1
+  on error resume next
